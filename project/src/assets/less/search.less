@@ -1,0 +1,146 @@
+body{
+    background-color: silver;
+}
+.content {
+    width: 7.5rem;
+    height: 11rem;
+    margin: 0 auto;
+    background-color: white;
+    .header {
+        width: 7.5rem;
+        height: 0.8rem;
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            height: 0.3rem;
+            margin-top: 0.25rem;
+            margin-left: 0.3rem;
+            &:nth-child(2){
+                width: 1.5rem;
+                height: 0.3rem;
+            }
+        }
+
+        .circle {
+            width: 0.6rem;
+            height: 0.13rem;
+            display: flex;
+            margin-top: 0.35rem;
+            justify-content: space-between;
+            margin-right: 0.3rem;
+
+            .circles {
+                width: 0.13rem;
+                height: 0.13rem;
+                background-color: black;
+                border-radius: 50%;
+            }
+        }
+    }
+    // 搜索商品
+    .searchshop{
+        width: 7.5rem;
+        height: 0.6rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        input{
+            width: 6rem;
+            height: 0.6rem;
+            margin: 0 auto;
+            background-color: #f26b11;
+            background-image: url(../images/list_images/search.jpg);
+            background-repeat: no-repeat;
+            background-size: 0.32rem 0.3rem;
+            background-position: 0.38rem 50%;
+            border-radius: 0.3rem;
+            &::-webkit-input-placeholder{
+                text-align: center;
+                font-size: 0.25rem;
+                line-height: 0.6rem;
+                color: white;
+            }
+        }
+    }
+    // 商品介绍
+    .shop{
+        width: 7.5rem;
+        .shop1{
+            width: 6.9rem;
+            height: 1.99rem;
+            margin: 0 auto;
+            // background-color: yellowgreen;
+            position: relative;
+            border-bottom: 0.01rem solid silver;
+            img{
+                width: 1.47rem;
+                height: 1.6rem;
+                display: inline-block;
+                margin-top: 0.2rem;
+            }
+            p{
+                width: 4rem;
+                font-size: 0.2rem;
+                position: absolute;
+                line-height: 0.22rem;
+                top: 0.38rem;
+                left: 1.6rem;
+            }
+            .p2{
+                position: absolute;
+                margin-top: 0.55rem;
+                margin-left: 0rem;
+                color: red;
+                span{
+                    font-size: 0.16rem;
+                }
+            }
+            .p3{
+                position: absolute;
+                margin-top: 0.95rem;
+                margin-left: 0rem;
+                color: gray;
+                font-size: 0.15rem;
+            }
+        }
+    }
+    .bottom{
+        width: 7.5rem;
+        height: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        .pic{
+            width: 1.2rem;
+            height: 1.2rem;
+            font-size: 0.2rem;
+            color: gray;
+            text-align: center;
+            p{
+                margin-top: 1rem;
+            }
+        }
+        .pic1{
+            background-image: url(../images/public/icon_8.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 0.54rem 0.54rem;
+        }
+        .pic2{
+            background-image: url(../images/public/icon_9.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 0.54rem 0.54rem;
+        }
+        .pic3{
+            background-image: url(../images/public/icon_5.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 0.54rem 0.54rem;
+        }
+    }
+}

@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+[v-cloak] {
+  display: none;
+}
+body {
+  background-color: silver;
+}
+.content {
+  width: 7.5rem;
+  height: 12rem;
+  margin: 0 auto;
+  background-color: white;
+}
+.content .header {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #f26b11;
+  display: flex;
+  justify-content: space-between;
+}
+.content .header p {
+  font-size: 0.3rem;
+  color: white;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+.content .header .circle {
+  width: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.3rem;
+}
+.content .header .circle .circles {
+  width: 0.13rem;
+  height: 0.13rem;
+  background-color: white;
+  margin-top: 0.35rem;
+  border-radius: 50%;
+}
+.content .shoplist {
+  width: 7.5rem;
+}
+.content .shoplist .lists {
+  width: 6.9rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.content .shoplist .lists .list-1 {
+  overflow: hidden;
+  float: left;
+  width: 6.9rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 0 0.05rem 0.01rem gray;
+}
+.content .shoplist .lists .list-1 .duihao {
+  margin-top: -0.4rem;
+}
+.content .shoplist .lists .list-1 img {
+  width: 1.02rem;
+  height: 0.8rem;
+  margin-left: 0.2rem;
+}
+.content .shoplist .lists .list-1 .text {
+  height: 100%;
+}
+.content .shoplist .lists .list-1 .text .p1 {
+  font-size: 0.2rem;
+  letter-spacing: 0.02rem;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+.content .shoplist .lists .list-1 .text .p2 {
+  font-size: 0.18rem;
+  letter-spacing: 0.02rem;
+  margin-top: 0.25rem;
+  margin-left: 0.2rem;
+  color: gray;
+}
+.content .shoplist .lists .list-1 .text .p3 {
+  font-size: 0.22rem;
+  letter-spacing: 0.02rem;
+  color: #e43a3d;
+  margin-top: 0.25rem;
+  margin-left: 0.2rem;
+}
+.content .shoplist .lists .list-1 .text .p3 span {
+  font-size: 0.2rem;
+}
+.content .shoplist .lists .list-1 .sum {
+  width: 2.2rem;
+  height: 0.6rem;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.6rem;
+  margin-left: 1.6rem;
+  margin-top: 0.35rem;
+}
+.content .shoplist .lists .list-1 .sum .sumiddle {
+  width: 0.8rem;
+  height: 100%;
+  float: left;
+  border-top: 0.01rem solid gray;
+  border-bottom: 0.01rem solid gray;
+}
+.content .shoplist .lists .list-1 .sum .sumleft,
+.content .shoplist .lists .list-1 .sum .sumright {
+  width: 0.6rem;
+  height: 100%;
+  float: left;
+  border: 0.01rem solid gray;
+}
+.content .shoplist .lists .list-1 .sum .sumleft {
+  border-radius: 0.05rem 0 0 0.05rem;
+}
+.content .shoplist .lists .list-1 .sum .sumright {
+  border-radius: 0 0.05rem 0.05rem 0;
+}
+.content .shoplist .lists button {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  width: 0.5rem;
+  height: 1.7rem;
+  background-color: red;
+  color: #fff;
+  line-height: 1.7rem;
+  display: none;
+}
+.content .account {
+  position: fixed;
+  bottom: 1.5rem;
+  width: 7.5rem;
+  height: 1.1rem;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  border-top: 0.01rem solid silver;
+  border-bottom: 0.01rem solid silver;
+  justify-content: space-between;
+}
+.content .account .account-1 {
+  width: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.content .account .account-1 p {
+  width: 0.8rem;
+  margin-left: 0.02rem;
+  font-size: 0.12rem;
+  color: gray;
+}
+.content .account .account-2 {
+  width: 3.4rem;
+  height: 1.1rem;
+  margin-right: -2.6rem;
+}
+.content .account .account-2 .p1 {
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  margin-top: 0.3rem;
+  font-weight: bold;
+}
+.content .account .account-2 .p1 span {
+  color: #e43a3d;
+  font-weight: normal;
+}
+.content .account .account-2 .p2 {
+  font-size: 0.12rem;
+  color: gray;
+  line-height: 0.3rem;
+}
+.content .account .account-3 {
+  width: 2rem;
+  height: 1.1rem;
+  font-size: 0.18rem;
+  text-align: center;
+  line-height: 1.1rem;
+  color: white;
+  background-color: #f26b11;
+}

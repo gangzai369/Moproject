@@ -1,0 +1,454 @@
+
+.container {
+    width: 7.5rem;
+    margin: 0 auto;
+    // overflow: hidden;
+    background-color: rgb(224, 224, 224);
+    .header {
+        width: 7.5rem;
+        height: 0.88rem;
+        background-color: white;
+        border-bottom: 0.01rem solid silver;
+        box-sizing: border-box;
+        // background-color: red;
+        .head {
+            width: 7rem;
+            height: 0.88rem;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                height: 0.33rem;
+                width: 1.47rem;
+            }
+
+            input {
+                width: 3rem;
+                height: 0.33rem;
+                background-color: silver;
+                &::-webkit-input-placeholder{
+                    text-align: center;
+                }
+            }
+
+            .circle {
+                width: 0.6rem;
+                display: flex;
+                justify-content: space-between;
+
+                .circles {
+                    width: 0.13rem;
+                    height: 0.13rem;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    //导航栏
+    .nav {
+        width: 7.5rem;
+        height: 0.76rem;
+        // background-color: blue;
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+
+        .nav_right {
+            width: 0.75rem;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 0.26rem;
+            }
+        }
+
+        .nav_left {
+            width: 6.75rem;
+            height: 0.76rem;
+            line-height: 0.76rem;
+            font-weight: bold;
+            // background-color: skyblue;
+            font-size: 0.2rem;
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+
+                li {
+                    // width: 0.8rem;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .banner {
+        width: 7.5rem;
+        height: 2.9rem;
+        img{
+            width: 100%;
+            height: 2.9rem;
+        }
+    }
+
+    .menu {
+        width: 7.5rem;
+        height: 1.8rem;
+        // background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 0.25rem;
+        color: slategrey;
+        background-color: white;
+
+        .box {
+            width: 1.5rem;
+            height: 1.5rem;
+
+            // background-color: red;
+            img {
+                width: 0.62rem;
+                height: 0.64rem;
+                margin-top: 0.2rem;
+                display: inline-block;
+            }
+
+            p {
+                margin-top: 0.1rem;
+            }
+        }
+    }
+
+    // 限时抢购栏
+    .timestop {
+        width: 7.5rem;
+        height: 3.8rem;
+        margin-top: 0.2rem;
+        // background-color: yellowgreen;
+        display: flex;
+
+        .time_left {
+            width: calc(50% - 0.01rem);
+            height: 100%;
+            background-color: white;
+            border-right: 0.01rem solid silver;
+            box-sizing: border-box;
+
+            .left-1 {
+                height: 0.45rem;
+                img {
+                    width: 0.3rem;
+                    height: 0.3rem;
+                    margin-top: 0.15rem;
+                    margin-left: 0.15rem;
+                    display: inline-block;
+                    vertical-align: bottom;
+                }
+
+                .span {
+                    font-size: 0.3rem;
+                    line-height: 0.3rem;
+                    // font-weight: bold;
+                    display: inline-block;
+                    background-image: linear-gradient(to right, #ff1f54, #f53f92);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                    letter-spacing: 0.05rem;
+                }
+            }
+
+            p {
+                font-size: 0.2rem;
+                color: gray;
+                margin-left: 0.15rem;
+                margin-top: 0.1rem;
+                letter-spacing: 0.05rem;
+            }
+
+            .left-2 {
+                width: 3rem;
+                background-image: url(../images/index_images/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 1rem 0.4rem;
+                background-position: right;
+                position: relative;
+
+                .timer {
+                    width: 1.55rem;
+                    margin-top: 0.1rem;
+                    margin-left: 0.15rem;
+                    display: flex;
+                    justify-content: space-between;
+                    vertical-align: middle;
+
+                    .time {
+                        width: 0.4rem;
+                        height: 0.4rem;
+                        float: left;
+                        line-height: 0.4rem;
+                        text-align: center;
+                        border-radius: 0.1rem;
+                        background-color: #272731;
+                        font-size: 0.2rem;
+                        color: white;
+                    }
+
+                    .time1 {
+                        line-height: 0.4rem;
+                    }
+                }
+
+                .p1 {
+                    display: inline-block;
+                    font-size: 0.22rem;
+                    font-weight: bold;
+                    position: absolute;
+                    right: 0.2rem;
+                    top: 0;
+                    color: #272731;
+                }
+            }
+
+            .left-3 {
+                position: relative;
+
+                img {
+                    width: 2rem;
+                    height: 2.36rem;
+                    margin: 0 auto;
+                    margin-top: 0.15rem;
+                }
+
+                .price {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    border-radius: 50%;
+                    background-color: #ff3179;
+                    text-align: center;
+                    line-height: 0.8rem;
+                    font-size: 0.25rem;
+                    font-weight: bold;
+                    color: white;
+                    position: absolute;
+                    bottom: 0.1rem;
+                    right: 0.2rem;
+                }
+            }
+        }
+
+        .time_right {
+            width: 50%;
+            height: 100%;
+
+            // background-color: tan;
+            .right_head {
+                width: calc(100% - 0.01rem);
+                height: 1.9rem;
+                background-color: white;
+                background-image: url(../images/index_images/shop_1.jpg);
+                background-size: 1.28rem 1.78rem;
+                background-repeat: no-repeat;
+                background-position: right;
+                border-bottom: 1px solid silver;
+                overflow: hidden;
+                box-sizing: border-box;
+                p {
+                    
+                    font-size: 0.3rem;
+                    background-image: linear-gradient(to right, #ff1f54, #f53f92);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                    margin-top: 0.2rem;
+                    margin-left: 0.2rem;
+
+                    .span {
+                        display: inline-block;
+                        width: 0.32rem;
+                        height: 0.25rem;
+                        font-size: 0.18rem;
+                        color: white;
+                        text-align: center;
+                        line-height: 0.3rem;
+                        background-image: linear-gradient(to right, #ff1f54, #f53f92);
+                    }
+                }
+
+                .p2 {
+                    font-size: 0.2rem;
+                    letter-spacing: 0.05rem;
+                    color: gray;
+                    // position: relative;
+                    line-height: 0.3rem;
+                    margin-top: 0.2rem;
+                    margin-left: 0.15rem;
+                }
+
+                img {
+                    width: 0.93rem;
+                    height: 0.32rem;
+                    margin-left: 0.15rem;
+                    margin-top: 0.25rem;
+                }
+            }
+
+            .right_foot {
+                width: 100%;
+                height: 1.89rem;
+                display: flex;
+
+                // background-color: skyblue;
+                .foot_left {
+                    width: calc(50% - 0.01rem);
+                    height: 100%;
+                    float: right;
+                    border-right: 0.01rem solid silver;
+                    box-sizing: border-box;
+                    background-color: white;
+                    overflow: hidden;
+
+                    .p1 {
+                        font-size: 0.3rem;
+                        background-image: linear-gradient(to right, #ff1f54, #f53f92);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                        color: transparent;
+                        margin-top: 0.2rem;
+                        margin-left: 0.15rem;
+                    }
+
+                    .p2 {
+                        font-size: 0.22rem;
+                        color: gray;
+                        margin-top: 0.05rem;
+                        margin-left: 0.15rem;
+                    }
+
+                    img {
+                        width: 0.64rem;
+                        height: 1.02rem;
+                        margin: 0 auto;
+                        margin-top: 0.05rem;
+                    }
+                }
+            }
+        }
+    }
+
+    //中部商品
+    .bar {
+        width: 7.5rem;
+        height: 1.9rem;
+        margin: 0.2rem auto;
+        margin-right: 0;
+        background-image: url(../images/index_images/bar.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    // 底部商品模块
+    .shop {
+        width: 7.5rem;
+        min-height: 9rem;
+        background-color: white;
+
+        .shop_list {
+            width: calc(7.2rem - 0.05rem);
+            height: calc(0.7rem - 0.02rem);
+            margin: 0 auto;
+            display: flex;
+
+            // background-color: skyblue;
+            .list {
+                width: 1.79rem;
+                height: 0.68rem;
+                border-left: 1px solid silver;
+                border-bottom: 1px solid silver;
+                border-top: 1px solid silver;
+                box-sizing: border-box;
+                font-size: 0.22rem;
+                font-weight: bold;
+                text-align: center;
+                line-height: 0.68rem;
+            }
+
+            .active {
+                background-color: tomato;
+                color: white;
+            }
+        }
+
+        .shopbox {
+            width: 7.2rem;
+            height: 3rem;
+            background-color: white;
+            box-shadow: 0 0 0.05rem 0.01rem gray;
+            margin: 0.2rem auto;
+
+            img {
+                width: 2.16rem;
+                height: 2.2rem;
+                display: block;
+                margin-top: 0.4rem;
+                margin-left: 0.3rem;
+                float: left;
+            }
+
+            .text {
+                float: left;
+
+                .p1 {
+                    font-size: 0.22rem;
+                    letter-spacing: 0.03rem;
+                    margin-top: 0.4rem;
+                    margin-left: 0.4rem;
+                }
+
+                .p2 {
+                    font-size: 0.22rem;
+                    color: tomato;
+                    margin-top: 0.2rem;
+                    margin-left: 0.4rem;
+
+                    span {
+                        font-size: 0.18rem;
+                    }
+                }
+                .p3 {
+                    font-size: 0.18rem;
+                    letter-spacing: 0.01rem;
+                    color: gray;
+                    margin-top: 0.2rem;
+                    margin-left: 0.4rem;
+                }
+                .button{
+                    width: 1.6rem;
+                    height: 0.5rem;
+                    margin-top: 0.35rem;
+                    margin-left: 0.4rem;
+                    font-size: 0.18rem;
+                    text-align: center;
+                    line-height: 0.5rem;
+                    border-radius: 0.1rem;
+                    color: white;
+                    background-color: tomato;
+                }
+            }
+        }
+    }
+}

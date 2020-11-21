@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ccc;
+}
+.content {
+  width: 7.5rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.content .header {
+  height: 1rem;
+  width: 100%;
+  background-color: #f36b0e;
+}
+.content .header .title {
+  width: 6.6rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.content .header .title img {
+  height: 0.3rem;
+  line-height: 1rem;
+  margin-top: 0.35rem;
+}
+.content .header .title p {
+  font-size: 0.3rem;
+  color: #fff;
+  line-height: 1rem;
+}
+.content .cont {
+  width: 6rem;
+  height: 5rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 0.24rem;
+}
+.content .cont .int1,
+.content .cont .int2,
+.content .cont .int3,
+.content .cont .int4 {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.content .cont .int1 span,
+.content .cont .int2 span,
+.content .cont .int3 span,
+.content .cont .int4 span {
+  font-size: 0.14rem;
+  color: red;
+}
+.content .cont .int1 input,
+.content .cont .int2 input,
+.content .cont .int3 input,
+.content .cont .int4 input {
+  border: 0rem;
+  height: 0.6rem;
+  font-size: 0.24rem;
+  outline: none;
+}
+.content .cont .int1,
+.content .cont .int3 {
+  word-spacing: 0.2rem;
+}
+.content .cont .int4 button {
+  width: 1.2rem;
+  height: 0.5rem;
+  font-size: 0.16rem;
+  float: right;
+  margin-top: 0.2rem;
+}
+.content .cont a {
+  float: right;
+}
+.content .cont button {
+  width: 5.6rem;
+  height: 0.8rem;
+  font-size: 0.25rem;
+  border-radius: 0.05rem;
+  border: 0rem;
+  margin-left: 0.22rem;
+  color: #fff;
+  background-color: #ff9900;
+}
+.content .cont .agree {
+  margin-top: 0.1rem;
+  font-size: 0.2rem;
+}

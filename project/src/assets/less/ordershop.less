@@ -1,0 +1,304 @@
+.content {
+    width: 7.5rem;
+    height: 13.5rem;
+    margin: 0 auto;
+    .header {
+        width: 7.5rem;
+        height: 0.8rem;
+        background-color: #f26b11;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-size: 0.3rem;
+            color: white;
+            font-weight: bold;
+            line-height: 0.8rem;
+        }
+
+        .circle {
+            width: 0.6rem;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 0.3rem;
+
+            .circles {
+                width: 0.13rem;
+                height: 0.13rem;
+                background-color: white;
+                margin-top: 0.35rem;
+                border-radius: 50%;
+            }
+        }
+    }
+      // 个人信息
+    .persons {
+        width: 7.5rem;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 0.19rem;
+            height: 0.26rem;
+            align-self: center;
+            margin-right: 0.3rem;
+        }
+        .person {
+            width: 6.2rem;
+            height: 1.5rem;
+            margin-left: 0.3rem;
+            // background-color: green;
+            .pername{
+                height: 0.45rem;
+                width: 100%;
+                line-height: 0.45rem;
+                // margin-top: 0.2rem;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    font-size: 0.2rem;
+                }
+            }
+            .perarr{
+                height: 0.45rem;
+                width: 100%;
+                line-height: 0.45rem;
+                margin-top: 0.2rem;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    font-size: 0.2rem;
+                }
+            }
+        }
+    }
+    // 商品信息
+    .goods{
+        width: 7.5rem;
+        .goodsname{
+            width: 6.9rem;
+            height: 1.3rem;
+            margin: 0 auto;
+            // background-color: skyblue;
+            position: relative;
+            img{
+                height: 1.3rem;
+                display: inline-block;
+            }
+            .p1{
+                display: inline-block;
+                font-size: 0.2rem;
+                position: absolute;
+                top: 0.2rem;
+                left: 1.5rem;
+            }
+            .p2{
+                display: inline-block;
+                font-size: 0.2rem;
+                position: absolute;
+                color: gray;
+                top: 0.6rem;
+                left: 1.5rem;
+            }
+            .p3{
+                font-size: 0.24rem;
+                color: indianred;
+                position: absolute;
+                top: 0.2rem;
+                right: 0;
+                span{
+                    font-size: 0.18rem;
+                }
+            }
+        }
+        .goodsnum{
+            width: 6.9rem;
+            height: 1rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // background-color: indianred;
+            border-bottom: 1px solid silver;
+            p{
+                font-size: 0.2rem;
+            }
+            .sum{
+                width: 2.2rem;
+                height: 0.6rem;
+                font-size: 0.2rem;
+                text-align: center;
+                line-height: 0.6rem;
+                .sumiddle{
+                    width: 0.8rem;
+                    height: 0.6rem;
+                    float: left;
+                    border-top: 0.01rem  solid gray;
+                    border-bottom: 0.01rem  solid gray;
+                }
+                .sumleft,.sumright{
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    float: left;
+                    border: 0.01rem solid gray;
+                }
+            }
+        }
+        .express{
+            width: 6.9rem;
+            height: 0.8rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // background-color: slateblue;
+            P{
+                font-size: 0.2rem;
+            }
+        }
+    }
+    .favour{
+        width: 7.5rem;
+        .favour-paper{
+            width: 6.9rem;
+            height: 0.8rem;
+            margin: 0 auto;
+            display: flex;
+            // background-color: hotpink;
+            justify-content: space-between;
+            align-items: center;
+            
+            p{
+                font-size: 0.2rem;
+                &:nth-child(2){
+                    font-size: 0.18rem;
+                    color: gray;
+                }
+            }
+        }
+        .favour-point{
+            width: 6.9rem;
+            height: 0.8rem;
+            margin: 0 auto;
+            display: flex;
+            // background-color: rgb(255, 17, 17);
+            justify-content: space-between;
+            align-items: center;
+            .input1{
+                height: 0.24rem;
+                width: 0.8rem;
+                border: 0.01rem solid gray;
+                margin-left: 3.6rem;
+                &::-webkit-input-placeholder{
+                    text-align: center;
+                    color: gray;
+                    font-size: 0.12rem;
+                }
+            }
+            .input2{
+                height: 0.24rem;
+                width: 0.35rem;
+                font-size: 0.12rem;
+                color: white;
+                background-color: orangered;
+            }
+            p{
+                font-size: 0.2rem;
+                &:nth-child(2){
+                    font-size: 0.18rem;
+                    color: gray;
+                }
+                span{
+                    color: indianred;
+                }
+            }
+        }
+    }
+    .money{
+        width: 7.5rem;
+        margin-top: 0.2rem;
+        border-bottom: 0.01rem solid silver;
+        .m1{
+            width: 6.9rem;
+            height: 0.45rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                font-size: 0.2rem;
+                &:nth-child(2){
+                    color: rgb(185, 0, 93);
+                    font-size: 0.18rem;
+                }
+            }
+        }
+    }
+    // 实付金额
+    .per{
+        width: 7.5rem;
+        height: 1rem;
+        display: flex;
+        // background-color: tomato;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            margin-right: 0.3rem;
+            font-size: 0.3rem;
+            span{
+                font-size: 0.26rem;
+                color: rgb(185, 0, 93);
+            }
+        }
+    }
+    .btn{
+        width: 7.5rem;
+        height: 1rem;
+        text-align: center;
+        input{
+            width: 3.2rem;
+            height: 1rem;
+            border-radius: 0.05rem;
+            background-color: tomato;
+            color: white;
+            font-size: 0.3rem;
+        }
+    }
+    .bottom{
+        width: 7.5rem;
+        height: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        .pic{
+            width: 1.2rem;
+            height: 1.2rem;
+            font-size: 0.2rem;
+            color: gray;
+            text-align: center;
+            p{
+                margin-top: 1rem;
+            }
+        }
+        .pic1{
+            background-image: url(../images/public/icon_8.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 0.54rem 0.54rem;
+        }
+        .pic2{
+            background-image: url(../images/public/icon_9.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 0.54rem 0.54rem;
+        }
+        .pic3{
+            background-image: url(../images/public/icon_5.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 0.54rem 0.54rem;
+        }
+    }
+}

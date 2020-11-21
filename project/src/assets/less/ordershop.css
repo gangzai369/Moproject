@@ -1,0 +1,290 @@
+.content {
+  width: 7.5rem;
+  height: 13.5rem;
+  margin: 0 auto;
+}
+.content .header {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #f26b11;
+  display: flex;
+  justify-content: space-between;
+}
+.content .header p {
+  font-size: 0.3rem;
+  color: white;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+.content .header .circle {
+  width: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.3rem;
+}
+.content .header .circle .circles {
+  width: 0.13rem;
+  height: 0.13rem;
+  background-color: white;
+  margin-top: 0.35rem;
+  border-radius: 50%;
+}
+.content .persons {
+  width: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.content .persons img {
+  width: 0.19rem;
+  height: 0.26rem;
+  align-self: center;
+  margin-right: 0.3rem;
+}
+.content .persons .person {
+  width: 6.2rem;
+  height: 1.5rem;
+  margin-left: 0.3rem;
+}
+.content .persons .person .pername {
+  height: 0.45rem;
+  width: 100%;
+  line-height: 0.45rem;
+  display: flex;
+  justify-content: space-between;
+}
+.content .persons .person .pername p {
+  font-size: 0.2rem;
+}
+.content .persons .person .perarr {
+  height: 0.45rem;
+  width: 100%;
+  line-height: 0.45rem;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.content .persons .person .perarr p {
+  font-size: 0.2rem;
+}
+.content .goods {
+  width: 7.5rem;
+}
+.content .goods .goodsname {
+  width: 6.9rem;
+  height: 1.3rem;
+  margin: 0 auto;
+  position: relative;
+}
+.content .goods .goodsname img {
+  height: 1.3rem;
+  display: inline-block;
+}
+.content .goods .goodsname .p1 {
+  display: inline-block;
+  font-size: 0.2rem;
+  position: absolute;
+  top: 0.2rem;
+  left: 1.5rem;
+}
+.content .goods .goodsname .p2 {
+  display: inline-block;
+  font-size: 0.2rem;
+  position: absolute;
+  color: gray;
+  top: 0.6rem;
+  left: 1.5rem;
+}
+.content .goods .goodsname .p3 {
+  font-size: 0.24rem;
+  color: indianred;
+  position: absolute;
+  top: 0.2rem;
+  right: 0;
+}
+.content .goods .goodsname .p3 span {
+  font-size: 0.18rem;
+}
+.content .goods .goodsnum {
+  width: 6.9rem;
+  height: 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+.content .goods .goodsnum p {
+  font-size: 0.2rem;
+}
+.content .goods .goodsnum .sum {
+  width: 2.2rem;
+  height: 0.6rem;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.content .goods .goodsnum .sum .sumiddle {
+  width: 0.8rem;
+  height: 0.6rem;
+  float: left;
+  border-top: 0.01rem solid gray;
+  border-bottom: 0.01rem solid gray;
+}
+.content .goods .goodsnum .sum .sumleft,
+.content .goods .goodsnum .sum .sumright {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: left;
+  border: 0.01rem solid gray;
+}
+.content .goods .express {
+  width: 6.9rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .goods .express P {
+  font-size: 0.2rem;
+}
+.content .favour {
+  width: 7.5rem;
+}
+.content .favour .favour-paper {
+  width: 6.9rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .favour .favour-paper p {
+  font-size: 0.2rem;
+}
+.content .favour .favour-paper p:nth-child(2) {
+  font-size: 0.18rem;
+  color: gray;
+}
+.content .favour .favour-point {
+  width: 6.9rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .favour .favour-point .input1 {
+  height: 0.24rem;
+  width: 0.8rem;
+  border: 0.01rem solid gray;
+  margin-left: 3.6rem;
+}
+.content .favour .favour-point .input1::-webkit-input-placeholder {
+  text-align: center;
+  color: gray;
+  font-size: 0.12rem;
+}
+.content .favour .favour-point .input2 {
+  height: 0.24rem;
+  width: 0.35rem;
+  font-size: 0.12rem;
+  color: white;
+  background-color: orangered;
+}
+.content .favour .favour-point p {
+  font-size: 0.2rem;
+}
+.content .favour .favour-point p:nth-child(2) {
+  font-size: 0.18rem;
+  color: gray;
+}
+.content .favour .favour-point p span {
+  color: indianred;
+}
+.content .money {
+  width: 7.5rem;
+  margin-top: 0.2rem;
+  border-bottom: 0.01rem solid silver;
+}
+.content .money .m1 {
+  width: 6.9rem;
+  height: 0.45rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .money .m1 p {
+  font-size: 0.2rem;
+}
+.content .money .m1 p:nth-child(2) {
+  color: #b9005d;
+  font-size: 0.18rem;
+}
+.content .per {
+  width: 7.5rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .per p {
+  margin-right: 0.3rem;
+  font-size: 0.3rem;
+}
+.content .per p span {
+  font-size: 0.26rem;
+  color: #b9005d;
+}
+.content .btn {
+  width: 7.5rem;
+  height: 1rem;
+  text-align: center;
+}
+.content .btn input {
+  width: 3.2rem;
+  height: 1rem;
+  border-radius: 0.05rem;
+  background-color: tomato;
+  color: white;
+  font-size: 0.3rem;
+}
+.content .bottom {
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+.content .bottom .pic {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.2rem;
+  color: gray;
+  text-align: center;
+}
+.content .bottom .pic p {
+  margin-top: 1rem;
+}
+.content .bottom .pic1 {
+  background-image: url(../images/public/icon_8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.54rem 0.54rem;
+}
+.content .bottom .pic2 {
+  background-image: url(../images/public/icon_9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.54rem 0.54rem;
+}
+.content .bottom .pic3 {
+  background-image: url(../images/public/icon_5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.54rem 0.54rem;
+}

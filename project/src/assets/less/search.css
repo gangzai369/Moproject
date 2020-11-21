@@ -1,0 +1,140 @@
+body {
+  background-color: silver;
+}
+.content {
+  width: 7.5rem;
+  height: 11rem;
+  margin: 0 auto;
+  background-color: white;
+}
+.content .header {
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.content .header img {
+  height: 0.3rem;
+  margin-top: 0.25rem;
+  margin-left: 0.3rem;
+}
+.content .header img:nth-child(2) {
+  width: 1.5rem;
+  height: 0.3rem;
+}
+.content .header .circle {
+  width: 0.6rem;
+  height: 0.13rem;
+  display: flex;
+  margin-top: 0.35rem;
+  justify-content: space-between;
+  margin-right: 0.3rem;
+}
+.content .header .circle .circles {
+  width: 0.13rem;
+  height: 0.13rem;
+  background-color: black;
+  border-radius: 50%;
+}
+.content .searchshop {
+  width: 7.5rem;
+  height: 0.6rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.content .searchshop input {
+  width: 6rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  background-color: #f26b11;
+  background-image: url(../images/list_images/search.jpg);
+  background-repeat: no-repeat;
+  background-size: 0.32rem 0.3rem;
+  background-position: 0.38rem 50%;
+  border-radius: 0.3rem;
+}
+.content .searchshop input::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 0.25rem;
+  line-height: 0.6rem;
+  color: white;
+}
+.content .shop {
+  width: 7.5rem;
+}
+.content .shop .shop1 {
+  width: 6.9rem;
+  height: 1.99rem;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 0.01rem solid silver;
+}
+.content .shop .shop1 img {
+  width: 1.47rem;
+  height: 1.6rem;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+.content .shop .shop1 p {
+  width: 4rem;
+  font-size: 0.2rem;
+  position: absolute;
+  line-height: 0.22rem;
+  top: 0.38rem;
+  left: 1.6rem;
+}
+.content .shop .shop1 .p2 {
+  position: absolute;
+  margin-top: 0.55rem;
+  margin-left: 0rem;
+  color: red;
+}
+.content .shop .shop1 .p2 span {
+  font-size: 0.16rem;
+}
+.content .shop .shop1 .p3 {
+  position: absolute;
+  margin-top: 0.95rem;
+  margin-left: 0rem;
+  color: gray;
+  font-size: 0.15rem;
+}
+.content .bottom {
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+.content .bottom .pic {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.2rem;
+  color: gray;
+  text-align: center;
+}
+.content .bottom .pic p {
+  margin-top: 1rem;
+}
+.content .bottom .pic1 {
+  background-image: url(../images/public/icon_8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.54rem 0.54rem;
+}
+.content .bottom .pic2 {
+  background-image: url(../images/public/icon_9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.54rem 0.54rem;
+}
+.content .bottom .pic3 {
+  background-image: url(../images/public/icon_5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.54rem 0.54rem;
+}
